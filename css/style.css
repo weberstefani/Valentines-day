@@ -1,0 +1,60 @@
+.panel {
+  position: relative;
+  text-align: center;
+  margin: 5.4em auto;
+  width: 80%;
+  max-width: 500px;
+  height: 600px;
+  background-color: var(--white);
+  border: 1px solid var(--gray);
+  border-radius: 16px;
+  box-shadow: 5px 7px 0 var(--gray);
+  border-bottom: none;
+  border-right: none;
+}
+
+.title {
+  font-family: "Sevillana", cursive;
+  font-size: 2.4rem;
+  margin: 52px 20px 10px;
+  text-align: center;
+  color: var(--red);
+}
+
+.paragraph {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  margin: 0 20px 5px;
+}
+
+img {
+  margin: 48px 0;
+  width: 80%;
+}
+
+.btns-accept {
+  text-align: center;
+}
+
+.btn-yes,
+.btn-no {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  width: 3.75rem;
+  height: 1.75rem;
+  margin-top: 5px;
+  border-radius: 20px;
+  color: var(--white);
+  background-color: var(--red);
+  box-shadow: 2px 3px 0 var(--gray);
+}
+
+.btn-yes {
+  margin-left: -65px;
+}
+
+.btn-no {
+  position: absolute;
+  margin-left: 12px;
+}
